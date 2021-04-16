@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/1st.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/header1.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="header1"></div>
+
+    <div id="strip">
+        <h1>Sign In <span>Register</span></h1>
+    </div>
+    <div id="signin-container">
+        <div id="sign-in">
+            <label>Email Address</label><br>
+            <input type="email" id="mail"><br>
+            <label> Password</label><br>
+            <input type="password" id="pass"></input><br>
+            <div id="forget"><a href="#">Forgot login details?</a></div>
+            <div id="sigin-btn"><button onclick="siginIN()">Sign in</button></div>
+            <div id="login-info">
+                <hr>
+                <p> or login with</p>
+                <hr>
+            </div>
+
+        </div>
+        <div id="register">
+            <h2>Don't have a Premier League account?</h2>
+            <p>In that case, you are missing out on:</p>
+            <li>Fantasy Premier League football game
+            </li>
+            <li>Exclusive fan services</li>
+            <li>Customised site content</li>
+            <li>Favourite Club information and notifications</li>
+            <button onclick="register()">Register</button>
+        </div>
+        <div id="login-options">
+            <button class="fb-login"><img src="https://users.premierleague.com/static/libsass/plusers/dist/img/svg/icon-facebook.svg" alt=""><p>Facebook</p></button>
+            <button class="twitter-login"><img src="https://users.premierleague.com/static/libsass/plusers/dist/img/svg/icon-twitter.svg" alt=""><p>Twitter</p></button>
+            <button class="google-login"><img src="https://users.premierleague.com/static/libsass/plusers/dist/img/svg/icon-google.svg" alt=""><p>Google</p></button>
+            <button class="apple-login"><img src="https://users.premierleague.com/static/libsass/plusers/dist/img/svg/icon-apple.svg" alt=""><p>Apple</p></button>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="./javascript/register.js"></script>
+    <script type="module">
+        import headerIcon from "./javascript/header.js"; import headerSec from "./javascript/header1.js";import footer from "./javascript/footer.js";
+    </script>
+</body>
+
+</html>
+
+<script>
+</script>
